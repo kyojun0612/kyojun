@@ -1,0 +1,9 @@
+while(True):
+  num=int(input("input the number :"))
+  if num <=0 :
+    print("stop")
+    break
+  if num%3==0:
+    print(num, "ok")
+  else :
+    print(num, "no")	
