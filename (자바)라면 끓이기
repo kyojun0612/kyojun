@@ -1,0 +1,39 @@
+package kkj;
+
+import java.util.Scanner;
+
+public class Kkj {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+        System.out.println("라면을 끓여보자!");
+
+		System.out.println("가스레인지 앞에 섰다");
+		System.out.println("1. 불을 킨다.  2.귀찮다.생라면기기연");
+		int ㄻ = sc.nextInt();
+
+        if (ㄻ==1) {
+			System.out.println("가스버너가 켜집니다. 틱틱틱");
+			System.out.println("물이 끓네요 보글보글");
+			System.out.println("1. 면-스프를 넣는다.   2.귀찮아. 그냥 편의점 가야딩~");
+			
+			
+		    int ㄻ2 = sc.nextInt();
+			
+			if (ㄻ2==1) {
+				System.out.println("면과 스프를 넣고 2분 더 끓인다.");
+				System.out.println("야무지1"
+						+ "게 먹어야지 후루루 짜빠ㅉㅃ");
+			} else if(ㄻ2==2) {
+                System.out.println("불을끄고 편의점으로 갑니다 ㅃㅇㄹ");
+			} else {
+				System.out.println("1, 2 중에 하나만 입력해야 합니다! 빠이");	
+				
+			    }
+			} else if(ㄻ==2) {
+			
+            System.out.println("생라면 먹방 가보자고 우걱우걱");
+		} else {
+		    System.out.println("1, 2 중에 하나만 입력해야 합니다! 빠이");	
+			} 
