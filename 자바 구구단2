@@ -1,0 +1,34 @@
+package kkj;
+
+import java.util.Scanner;
+
+public class Kkj2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+//      '몇단'볼지 입력받아서
+		System.out.println("몇단 볼래?");
+		int 몇단 = sc.nextInt(); // 18
+		
+		
+		
+//		'몇까지 곱할지 ' 입력받아서
+		System.out.println("몇까지 고팔래?");
+		int 고팔수씨 = sc.nextInt(); // 3
+		
+//		System.out.println(18 * 1 = 18);
+//		System.out.println(18 * 2 = 36);
+//		System.out.println(18 * 3 = 54);
+		
+		int i = 1;
+		while(i<=고팔수씨) { //조건 -> i가 고팔수씨보다 작은동안
+		      System.out.println(몇단+"*"+i+"="+(몇단*i));
+		고팔수씨++;
+		
+		
+		
+		}
+//		출력하는 프로그램
+	}
+
+}
