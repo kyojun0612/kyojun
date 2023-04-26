@@ -1,14 +1,14 @@
-a = int(input("input first num:"))
-b = input ()
-c = int(input("input second num:"))
+a = int(input("input first num:"))    # 첫번째 연산할 값 입력받기
+b = input ()                          # 두번째 연산자 입력받기
+c = int(input("input second num:"))   # 세번째 연산할 값 입력받기
 
-if b =="+":
-  print(a, "+" ,c, "=" ,a+c)
-elif b =="-":
-  print(a, "-" ,c, "=" ,a-c)
-elif b == "/":
- print(a, "/" ,c, "=" ,a/c)
-elif b == "*":
- print(a, "*" ,c, "=" ,a*c)
-else :
-  print("연산자 입력오류")
+if b =="+":                           # 만약 변수 b가 +이라면
+  print(a, "+" ,c, "=" ,a+c)          # a 와 c를 더하고 = 값이 더한 값으로 나오게 된다
+elif b =="-":                         # 만약 변수 b가 - 이라면
+  print(a, "-" ,c, "=" ,a-c)          # a 와 c를 빼고 = 값이 뺸 값으로 나오게 된다
+elif b == "/":                        # 만약 변수 b가 / 이라면
+ print(a, "/" ,c, "=" ,a/c)           # a 와 c를 나누고 = 값이 나눈 값으로 나오게 된다
+elif b == "*":                        # 만약 변수 b가 * 이라면
+ print(a, "*" ,c, "=" ,a*c)           # a 와 c를 곱하고 = 값이 곱한 값으로 나오게 된다
+else :                                # 조건이 충족되지않다면
+  print("연산자 입력오류")            # 연산자 입력오류가 뜬다
