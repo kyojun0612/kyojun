@@ -1,0 +1,14 @@
+a = int(input("input first num:"))
+b = input ()
+c = int(input("input second num:"))
+
+if b =="+":
+  print(a, "+" ,c, "=" ,a+c)
+elif b =="-":
+  print(a, "-" ,c, "=" ,a-c)
+elif b == "/":
+ print(a, "/" ,c, "=" ,a/c)
+elif b == "*":
+ print(a, "*" ,c, "=" ,a*c)
+else :
+  print("연산자 입력오류")
