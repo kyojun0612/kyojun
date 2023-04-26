@@ -1,0 +1,22 @@
+package kkj;
+
+import java.util.Scanner;
+
+public class Kkj612 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+	
+		System.out.println("숫자를 입력하세요");
+        
+		int num = sc.nextInt();
+		int 결과 = 0;
+		for(int i=1; i<=num; i++) {
+		    if(i%2!=0 || i%3!=0) {
+		    	결과 = 결과 + i;
+		        System.out.println(결과);
+		    }
+		}
+		System.out.println(결과);
+	}
+}
