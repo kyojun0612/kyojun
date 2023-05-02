@@ -1,0 +1,27 @@
+package kkj;
+
+import java.util.Scanner;
+
+public class Array {
+
+	public static void main(String[] args) {
+
+//		int[] 배열 = new int[100];
+//		int 배열2[] = new int[100];
+		int[] 배열 = new int[5];
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int 엿 = 0;
+		
+		while(엿<5) {
+			System.out.println("값을 입력하세요!");
+			배열[엿] = sc.nextInt();
+			엿++;
+		}
+		for (int ㅇㅇ=0; ㅇㅇ<5; ㅇㅇ++) {
+		System.out.println(배열[ㅇㅇ]);
+		}
+
+	}
+}
